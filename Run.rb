@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
-require 'E:/RubyCode/SCRF/加载'
-require 'E:/RubyCode/Agar/代码/加载'
+require_relative '../SCRF/加载'
+require_relative '代码/加载'
 
 忽略错误 do
   容器 = Agar容器.新建(1000, 1000)
