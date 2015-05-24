@@ -16,8 +16,14 @@ class Agar容器
   def 可视化;K可视化模块.后台运行 end
   def 运行
     可视化
-    loop{@Agar数组.每个{|agar| agar.运动}}
-  end  
+    限帧器, 帧数计算器 = C限帧器.新建(Agar配置.最高帧数), C帧数计算器.新建{|帧数| 输出 帧数}
+    loop do
+      @Agar数组.每个{|agar| agar.运动}
+      限帧器.调用
+      帧数计算器.调用
+      break if (S键盘.CTRL? && S键盘.A?)
+    end
+  end
   #~ include Enumerable
   #~ def each;@Agar数组.每个{|agar| yield(Agar)} end
 end
