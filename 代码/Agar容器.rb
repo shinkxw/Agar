@@ -7,6 +7,7 @@ class Agar容器
     @父界面 = TK主界面.新建("Agar", 600, 400)
     @画布 = TK画布.新建(@父界面, @长, @宽, true)
     @画布.背景色 = 'green'
+    @帧数显示 = TKC文本.新建(@画布, K点.新建(@长 - 30, @宽 - 15))
   end
   def 添加(agar)
     agar.生成精灵(@画布, 随机(@长), 随机(@宽))
@@ -20,7 +21,8 @@ class Agar容器
     loop do
       @Agar数组.每个{|agar| agar.运动}
       限帧器.调用
-      break if (S键盘.CTRL? && S键盘.A?)
+      @帧数显示.文本 = 格式化("%.2f", 限帧器.当前帧数)
+      break if (S键盘.ESCAPE?)
     end
   end
   #~ include Enumerable
