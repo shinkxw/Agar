@@ -10,3 +10,6 @@ class Agar控制器
   end
   
 end
+class Agar静止控制器
+  def 判断移动方向;nil end
+end
