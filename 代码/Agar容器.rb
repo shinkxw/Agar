@@ -22,8 +22,10 @@ class Agar容器
   def 运行
     可视化
     loop do
-      ager运动
-      画面卷动
+      K可视化模块.延迟显示 do
+        ager运动
+        画面卷动
+      end
       限帧
       break if 退出判断
     end
