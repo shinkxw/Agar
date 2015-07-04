@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
 class Agar
-  attr_reader :名称, :大小, :颜色
+  可读属性 :名称, :大小, :颜色
   def initialize(名称 = '', 大小 = 16, 颜色 = 'red', 控制器 = Agar控制器.新建)
     @名称, @大小, @颜色, @控制器 = 名称, 大小, 颜色, 控制器
   end
