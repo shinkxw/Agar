@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
-class Agar
+class C细胞
   可读属性 :名称, :大小, :颜色
-  def initialize(名称 = '', 大小 = 16, 颜色 = 'red', 控制器 = Agar控制器.新建)
+  def initialize(名称 = '', 大小 = 16, 颜色 = 'red', 控制器 = C细胞控制器.新建)
     @名称, @大小, @颜色, @控制器 = 名称, 大小, 颜色, 控制器
   end
   def 坐标;@圆心.复制 end
@@ -29,8 +29,8 @@ class Agar
   end
 end
 
-定义测试集 'Agar测试' do
-  添加测试 'Agar半径测试' do
-    Agar.新建('', 150).半径.应该为 14
+定义测试集 '细胞测试' do
+  添加测试 '细胞半径测试' do
+    C细胞.新建('', 150).半径.应该为 14
   end
 end

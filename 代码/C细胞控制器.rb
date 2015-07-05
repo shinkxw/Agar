@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
-class Agar控制器
-  #def initialize;@Agar数组 = [] end
+class C细胞控制器
+  #def initialize;@细胞数组 = [] end
   def 判断移动方向
     x = (S键盘.RIGHT? ? 1 : 0) + (S键盘.LEFT? ? -1 : 0)
     y = (S键盘.UP? ? 1 : 0) + (S键盘.DOWN? ? -1 : 0)
@@ -10,6 +10,6 @@ class Agar控制器
   end
   
 end
-class Agar静止控制器
+class C细胞静止控制器
   def 判断移动方向;nil end
 end
