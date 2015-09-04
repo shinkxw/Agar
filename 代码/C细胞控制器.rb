@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
+需要 'D二维向量'
 class C细胞控制器
   #def 初始化;@细胞数组 = [] end
   def 判断移动方向

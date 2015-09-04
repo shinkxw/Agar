@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
+需要 'HSV'
 class C细胞
   可读属性 :名称, :大小, :颜色
   def 初始化(名称 = '', 大小 = 16, 颜色 = nil, 控制器 = C细胞控制器.新建)

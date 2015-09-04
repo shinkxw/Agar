@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
+需要 'C限帧器'
 class C琼脂
   可读属性 :宽, :高
   def 初始化(宽, 高)
