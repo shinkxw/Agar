@@ -43,7 +43,7 @@ class C琼脂
     @利用率显示.文本 = "%.2f%%" % (@限帧器.当前利用率 * 100)
     @中点坐标显示.文本 = 中点画布坐标.字符串
   end
-  def 退出判断;S键盘.ESCAPE? end
+  def 退出判断;S键盘.ESC? end
   #~ include Enumerable
   #~ def each;@细胞数组.每个{|细胞| yield(细胞)} end
 end
