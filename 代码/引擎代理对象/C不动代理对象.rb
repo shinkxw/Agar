@@ -11,9 +11,7 @@ class C不动代理对象 < C时间代理对象
   def 范围;@范围 ||= 计算范围 end
   def 计算范围(坐标 = @坐标);@对象.形体.转换为区域(坐标) end
   def 销毁(事件)
-    return if @是否销毁
-    脱离时间轴
+    super(事件)
     @所在区域.删除元素(self)
-    @是否销毁 = true
   end
 end

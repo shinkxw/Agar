@@ -26,8 +26,7 @@ class C时间代理对象 < C代理对象
     end
   end
   def 销毁(事件)
-    return if @是否销毁
+    super(事件)
     脱离时间轴
-    @是否销毁 = true
   end
 end
