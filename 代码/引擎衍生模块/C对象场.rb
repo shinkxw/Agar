@@ -1,6 +1,5 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
-需要类 'M代理控制反转'
 class C对象场
   包含模块 M代理控制反转
   def 初始化(对象, 影响范围半径)

@@ -1,7 +1,6 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
 需要 'C间隔'
-需要类 'M代理控制反转'
 class C时间同步器
   包含模块 M代理控制反转
   可读属性 :同步比例, :同步频率

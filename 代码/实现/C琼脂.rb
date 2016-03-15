@@ -14,7 +14,7 @@ class C琼脂
   def 细胞数量;@细胞数组.数量 end
   def 运行
     @时间轴.运行 do |当前时间, 当前对象|
-      输出 当前时间
+      #输出 当前时间
       break if S键盘.ESC?
     end
   end
