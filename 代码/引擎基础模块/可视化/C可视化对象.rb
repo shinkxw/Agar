@@ -18,5 +18,10 @@ class C可视化对象
     else
     end
   end
-  
+  def 大小
+    case @形状
+    when D圆形;@形状.半径
+    else
+    end
+  end
 end
