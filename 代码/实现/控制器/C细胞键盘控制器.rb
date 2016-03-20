@@ -1,5 +1,6 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
+需要 'S键盘'
 需要 'D二维向量'
 class C细胞键盘控制器
   def 判断移动方向(输入)
