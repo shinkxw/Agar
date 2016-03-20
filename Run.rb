@@ -13,4 +13,3 @@ require_relative '代码/加载'
   琼脂.运行
   #~ R单元测试.执行#(['-v'])
 end
-
