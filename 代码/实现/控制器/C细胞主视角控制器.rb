@@ -1,7 +1,7 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
 需要类 'C细胞键盘控制器'
-class C细胞主视角控制器
+class C细胞主视角控制器 < C控制器
   def 初始化
     @可视化 = C可视化.新建('琼脂', 800, 500)
     @可视化.可视化

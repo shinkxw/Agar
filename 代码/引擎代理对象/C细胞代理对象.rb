@@ -15,6 +15,7 @@ class C细胞代理对象 < C体代理对象
   def 质量;@对象.质量 end
   def 移动(事件)
     super(事件)
+    #消耗处理
     吞噬判断
   end
   def 形变(事件)
