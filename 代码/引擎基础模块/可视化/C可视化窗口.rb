@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/env ruby -w
 # encoding: UTF-8
-class C可视化
+class C可视化窗口
   可读属性 :长, :宽
   def 初始化(标题, 长, 宽)
     @长, @宽 = 长, 宽
