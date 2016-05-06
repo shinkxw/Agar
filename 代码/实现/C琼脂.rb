@@ -20,7 +20,7 @@ class C琼脂
   def 运行
     @时间轴.运行 do |当前时间, 当前对象|
       #输出 当前时间
-      break if S键盘.ESC?
+      break if S键盘.按下过ESC?
     end
   end
 end
